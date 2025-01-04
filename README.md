@@ -48,9 +48,11 @@ API Interfaces: Defines the endpoints for network requests.
 Repository: Centralizes data management by fetching and caching data from the API using Retrofit.
 Asynchronous Operations: Uses Kotlin Coroutines for efficient API calls.
 
-![bookinghistory.jpeg](..%2F..%2FDownloads%2Fbookinghistory.jpeg)
-![deskorroomscreen.jpeg](..%2F..%2FDownloads%2Fdeskorroomscreen.jpeg)
-![slotscreen.jpeg](..%2F..%2FDownloads%2Fslotscreen.jpeg)
-![mainscreen.jpeg](..%2F..%2FDownloads%2Fmainscreen.jpeg)
-![createaccount.jpeg](..%2F..%2FDownloads%2Fcreateaccount.jpeg)
-![login.jpeg](..%2F..%2FDownloads%2Flogin.jpeg)
+Screens
+![slotscreen](https://github.com/user-attachments/assets/2059cf8f-4bc5-4fb2-b78e-af144c5df34e)
+![login](https://github.com/user-attachments/assets/ec6e54c0-e433-44f4-9478-897a6d192842)
+![createaccount](https://github.com/user-attachments/assets/40551a7c-c325-443d-9968-4de9b6e372d8)
+![mainscreen](https://github.com/user-attachments/assets/056e7fb8-49a9-4d6b-a97a-339ae41cf49f)
+![deskorroomscreen](https://github.com/user-attachments/assets/0cb70199-1c19-4376-bbb6-d00ad1939c52)
+![bookinghistory](https://github.com/user-attachments/assets/1d7dbe27-bf91-4f9f-8b5c-50b3fee1162e)
+
