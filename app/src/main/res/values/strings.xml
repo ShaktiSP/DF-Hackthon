@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DF Hackthon</string>
+    <string name="create_an_account"><u>Create an account</u></string>
+    <string name="log_in"><u>Log In</u></string>
+    <string name="mobile_number_or_email">Mobile number or Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="email_id">Email ID</string>
+</resources>
