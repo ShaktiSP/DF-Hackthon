@@ -146,19 +146,21 @@ class AvailableSeatActivity : AppCompatActivity() {
         registerViewModel.bookingConfResponse.observe(this) {
             when (it.status) {
                 Status.SUCCESS -> {
-                    binding.progress.visibility = View.GONE
                     Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this, MainActivity::class.java))
                     finishAffinity()
                 }
 
                 Status.LOADING -> {
-                    binding.progress.visibility = View.VISIBLE
+                    bindingDialog.btnConfirm.text = ""
+                    bindingDialog.progressLogin.visibility = View.VISIBLE
+                    bindingDialog.btnConfirm.isClickable = false
                 }
 
                 Status.ERROR -> {
-                    binding.progress.visibility = View.GONE
-                    Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
+                    bindingDialog.progressLogin.visibility = View.GONE
+                    bindingDialog.btnConfirm.isClickable = true
+                    bindingDialog.btnConfirm.text = "Confirm"
                 }
             }
         }
