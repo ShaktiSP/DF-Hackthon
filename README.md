@@ -37,16 +37,20 @@ DF-Hackthon/
 └── README.md                              # Project documentation
 
 Key Components
+Kotlin Language
+
+Concise and expressive code for all application logic.
+Enhanced safety with nullability features and type inference.
 MVVM Architecture
 
-Model: Manages the app's data, using repositories to fetch and process data from APIs or local databases.
-View: The UI layer (Activities, Fragments) observes data changes via LiveData and reflects updates on the screen.
-ViewModel: Acts as a mediator between the View and Model, holding UI-related data and business logic.
+Model: Represents the data layer, using Retrofit to fetch data and Room for local database storage.
+View: Displays UI components (Activities, Fragments). Uses LiveData or StateFlow to observe data changes.
+ViewModel: Contains the logic to interact with the Model and expose data to the View.
 Retrofit Integration
 
-API Interfaces: Defines the endpoints for network requests.
-Repository: Centralizes data management by fetching and caching data from the API using Retrofit.
-Asynchronous Operations: Uses Kotlin Coroutines for efficient API calls.
+API Interfaces: Written in Kotlin for defining RESTful API endpoints.
+Coroutines Support: Ensures non-blocking, asynchronous operations for API calls.
+Error Handling: Handles exceptions gracefully using try-catch blocks or Kotlin’s Result type.
 
 Screens
 ![slotscreen](https://github.com/user-attachments/assets/2059cf8f-4bc5-4fb2-b78e-af144c5df34e)
